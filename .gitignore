@@ -4,7 +4,7 @@
 __pycache__
 
 # Env
-poll_venv/
+poll/
 
 # Database
 db.sqlite3
