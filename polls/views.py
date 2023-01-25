@@ -59,5 +59,5 @@ def results(request, question_id):
     response = "You're looking at the results of question %s."
     return render(request, response % question_id)
 
-def vote(request, question_id):
-    return render(request, "You're voting on question %s." % question_id)
+# def vote(request, question_id):
+#     return render(request, "You're voting on question %s." % question_id)
